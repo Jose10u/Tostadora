@@ -1,0 +1,13 @@
+# ESP-IDF Build Output
+build/
+sdkconfig.old
+sdkconfig.ci
+.cache/
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
