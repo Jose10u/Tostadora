@@ -1,13 +1,19 @@
-# ESP-IDF Build Output
+﻿# ESP-IDF Build Output
 build/
+**/build/
+.cache/
+**/.cache/
+
+# IDE & Tooling
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+
+# ESP-IDF Configuration backups
 sdkconfig.old
 sdkconfig.ci
-.cache/
 
-# Editor / IDE configuration
-.vscode/
-.idea/
-
-# OS metadata
+# OS generated files
 .DS_Store
 Thumbs.db
